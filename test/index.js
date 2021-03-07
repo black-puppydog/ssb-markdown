@@ -8,6 +8,7 @@ var outputInline = require('./output-inline')
 var markdown = require('../')
 
 var tests = [
+  'empty message',
   'message with link',
   'message with image',
   'message with "@" mentions',
